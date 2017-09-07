@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         textV.text = "Kotlin基础知识"
+        tv_base_usage.loadUrl("http://www.jianshu.com/p/3bc0b33b787a")
     }
 
     // 定义函数
